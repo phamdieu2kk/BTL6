@@ -1,0 +1,60 @@
+.App {
+    font-family: 'Arial', sans-serif;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(
+        #ffffffb3,
+        #ffffff4d
+      ),
+      url("https://i.pinimg.com/originals/95/aa/01/95aa010f24ce105b12756d472d476585.png");
+    background-size: cover;
+    background-position: center;
+  }
+  h1 {
+    color: #333;
+    margin-bottom: 1.5rem;
+  }
+  form {
+    background-color: #ffffff;
+    padding: 3rem;
+    border-radius: 8px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 450px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px 15px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    color: #333;
+    box-sizing: border-box;
+  }
+  
+  .error {
+    font-size: 0.875rem;
+    color: #d9534f;
+    margin-bottom: 10px;
+  }
+  
+  .submit-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-button:hover {
+    background-color: #0056b3;
+  }
+  
